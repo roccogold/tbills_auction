@@ -1,12 +1,23 @@
-# bots_auction
-Execution of a BPMN workflow for the placement of government securities, such as treasury bills, through an automated and competitive auction stored in blockchain.
+# [tbills_auction]
 
-The project is a simplified demo representing a smart contract that runs on top of the Business Process Model and Notation (BPMN 2.0). 
+A blockchain-based BPMN workflow for automated treasury bill auctions
 
-The goal of this solution is to automate the allocation of treasury bills emitted by Bank of Italy through a competitive and public auction. This choreograpahic representation improves how contracts are created and modified in a more legible way by enabling organizations to pilot the processes through APIs and digital signatures (TLS).
+## 📖 Overview  
+This project demonstrates a **BPMN 2.0 workflow** for executing automated, competitive auctions of government securities (e.g., treasury bills) on a blockchain. Designed as a simplified proof-of-concept, it models the Bank of Italy's treasury bill allocation process using smart contracts, APIs, and cryptographic signatures for enhanced transparency and efficiency.
 
-- BPMN 2.0
-- Python
-- Pandas
-- JSON
-- Groovy
+## Key Features 🚀
+- **BPMN-Driven Automation**: Visual workflow modeling for auction processes  
+- **Smart Contract Execution**:  
+  - Bid validation and winner selection  
+  - Automatic fund transfers (winners → treasury / refunds → losers)  
+- **Immutable Blockchain Storage**: All auction data recorded on-chain  
+- **TLS/API Integration**: Secure interaction layer for institutional participants  
+- **Choreographic Clarity**: Human-readable process diagrams for legal/technical alignment  
+
+## Tech Stack 🛠️
+| Component           | Tools                                                                 |
+|---------------------|-----------------------------------------------------------------------|
+| **Workflow Engine** | BPMN 2.0                                                              |
+| **Backend**         | Python 3.10+, Pandas (data processing), Groovy (scripting)            |  
+| **Data Exchange**   | JSON                                                                  |  
+| **Security**        | TLS 1.3, Digital Signatures                                           |  
