@@ -2,7 +2,7 @@
 
 A blockchain-based BPMN workflow for automated treasury bill auctions
 
-## 📖 Overview  
+## Overview 📖
 This project demonstrates a **BPMN 2.0 workflow** for executing automated, competitive auctions of government securities (e.g., treasury bills) on a blockchain. Designed as a simplified proof-of-concept, it models the Bank of Italy's treasury bill allocation process using smart contracts, APIs, and cryptographic signatures for enhanced transparency and efficiency.
 
 ## Key Features 🚀
