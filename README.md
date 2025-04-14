@@ -21,3 +21,7 @@ This project demonstrates a **BPMN 2.0 workflow** for executing automated, compe
 | **Backend**         | Python 3.10+, Pandas (data processing), Groovy (scripting)            |  
 | **Data Exchange**   | JSON                                                                  |  
 | **Security**        | TLS 1.3, Digital Signatures                                           |  
+
+## Authors 👥
+**Rocco Goldschmidt**, API Product Manager
+[📧](mailto:roccogold23@gmail.com) | [💼](https://www.linkedin.com/in/roccogoldschmidt/) 
